@@ -28,13 +28,10 @@ textarea::placeholder, input::placeholder{
     
 }
 
-
 /*Mobile First*/
-.tudo{
-    margin: 0 16px 0 16px;
+.all{
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 /*Sessão Menu*/
@@ -45,6 +42,7 @@ section.menu{
     align-items: center;
     align-content: flex-end;
     height: 10vh;
+    margin: 0px 16px;
 }
 section header {
     display: flex;
@@ -71,6 +69,10 @@ section header {
        font-weight: 400;
 
    }
+
+section .title{
+    margin: 0px 16px;
+}
 
     section.title div.title-div div.title-container h2{ 
         font-size: 22px;
@@ -122,10 +124,13 @@ section.about div.about-container img{
 
 /*Sessão Skill*/
 
+section.skills{
+    margin: 0px 16px;
+}
+
     section.skills div.skills-line{
         display: flex;
         flex-wrap: wrap;
-        width: 100vw;
         justify-content: space-between;
     }
     section.skills div.skills-line div.skills-box{
@@ -148,10 +153,13 @@ section.about div.about-container img{
 
 /*Sessão Hobbies*/
 
+section.hobbies{
+    margin: 0px 16px;
+}
+
     section.hobbies-section div.hobbies-line{
         display: flex;
         flex-wrap: wrap;
-        width: 100vw;
         justify-content: space-between;
     }
     section.hobbies-section div.hobbies-line div.hobbies-box{
@@ -268,7 +276,6 @@ section.experience{
         width: 100%;
     }
 
-
 /*Contato*/
 
 section.formcontato{
@@ -324,7 +331,6 @@ section.formcontato{
         width: 80vw;
     }
 
-
     form.form button{
         border: transparent;
         display: flex;
@@ -348,23 +354,21 @@ section.footer div.rodape{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
-    
-}
-
-@media (max-width: 699){
+    text-align: center;  
 }
 
 @media (min-width: 700px) {
 
-    .tudo{
-        margin: 32px 32px;
-    }
+/* Menu */
+section.menu{
+    margin: 0 32px;
+}
 
 /*title*/
     section.title{
-        margin-bottom: 32px;
+        margin: 32px 32px;
     }
+
     div.title-div{
         justify-content: space-around;
         align-content: flex-start;
@@ -380,6 +384,17 @@ section.footer div.rodape{
         width: 157px;
         margin-left: 32px;
     }
+
+/*Skills*/
+
+section.skills{
+    margin: 0 32px;
+}
+
+/*Hobbies*/
+section.hobbies-section{
+    margin: 0 32px;
+}
 /*experiências acadêmicas*/
 
     section.academic div.courses{
@@ -408,16 +423,15 @@ section.footer div.rodape{
 
 @media (min-width: 1000px) {
 
-/*main*/
-
-    .tudo{
-        margin: 32px 50px; 
-    }
     .section-title {
         font-size: 32px;
     }
 
 /*Menu*/
+
+section.menu{
+    margin: 0 64px;
+}
 
     section.menu nav ul.menu-list {
         display: flex;
@@ -457,6 +471,13 @@ section.footer div.rodape{
         line-height: 23px;
     }
 
+/*Titulo*/
+
+    section.title{
+        margin: 0 64px;
+    }
+
+
 /*Sessão sobre*/
 
     section.about{
@@ -469,6 +490,10 @@ section.footer div.rodape{
 
 /*Skills*/
 
+section.skills{
+    margin: 0 64px;
+}
+
     section.skills div.skills-line{
         width: 100%;
         
@@ -480,6 +505,10 @@ section.footer div.rodape{
     }
 
 /*Hobbies*/
+
+section.hobbies-section{
+    margin: 0 62px;
+}
 
     section.hobbies-section div.hobbies-line{
         width: 100%;
@@ -575,10 +604,6 @@ section.footer div.rodape{
 }
 
 @media (min-width: 1440px) {
-
-    .tudo{
-        margin: 32px 152px;
-    }
 
     div.about-container{
         width: 751px;
