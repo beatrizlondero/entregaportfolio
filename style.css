@@ -95,7 +95,14 @@ section .title{
     }
 
     section.title img.profile{
-        width: 20%;
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+        transform: rotate(-15deg);
+        transition: 2s;
+    }
+    section.title img.profile:hover{
+        opacity: 0.3;
     }
 
     .section-title{
@@ -120,6 +127,10 @@ line-height: 16px;
 
 section.about div.about-container img{
     margin: 16px;
+    margin-left: 75%;
+    width: 15%;
+    opacity: 0.5;
+    
 }
 
 /*Sessão Skill*/
@@ -179,7 +190,9 @@ section.hobbies{
         padding: 0;
 
     }
-
+    .hobbies-img img{
+        width: 40px;
+    }
 /* Experiência Acadêmica*/
 
     section.academic{
