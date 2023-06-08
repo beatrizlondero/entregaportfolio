@@ -123,6 +123,7 @@ section.about div.about-container p{
 font-weight: 400;
 font-size: 14px;
 line-height: 16px;
+font-family: 'Roboto', sans-serif;
 }
 
 section.about div.about-container img{
@@ -130,7 +131,7 @@ section.about div.about-container img{
     margin-left: 75%;
     width: 15%;
     opacity: 0.5;
-    
+    display: none;
 }
 
 /*Sessão Skill*/
